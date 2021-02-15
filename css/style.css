@@ -1,0 +1,60 @@
+img {
+    pointer-events: none;
+}
+.main {
+    margin-top:50px;
+}
+.body{
+    background: aliceblue;
+}
+.col-sm-3{
+    margin-right: -20px;
+}
+.col {
+    background: #fff;
+}
+.list-group a{
+    border: none;
+}
+.list-group-item .active a{
+    background: #fff;
+    border-bottom: 1px solid aqua;
+}
+.list-group {
+    border-radius: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.active a {
+    color: #000;
+}
+.form-send input textarea{
+    color: black;
+
+}
+.form-send {
+    padding: 50px;
+}
+.news {
+    margin-top:10px;
+}
+.col-sm-8 {
+    padding: 50px;
+}
+.form {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 100%;
+}
+.skill h4{
+    font-weight: 10;
+    margin-top: 50px;
+
+    text-align: center;
+}
+.progress-bar {
+    text-align: center;
+    padding: 20px;
+    border-radius: 24px;
+}

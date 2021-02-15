@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/jpg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet"/>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Borisov Ilya || web developer</title>
+</head>
+<body class="body">
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col shadow-lg m-3 p-2 mb-6 bg-body rounded">
+                <div class="left-bar">
+                    <img src="img/avatar.jpg" alt="" class=" shadow-lg rounded img-fluid">
+                    <div class="list-group">
+                        <div class="row">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5 mb-3">
+                        <a href="https://t.me/biolry" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCbWH0lSyaTD0Z7fhy2C9lBw" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/biolry/" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/pifirst" class="btn btn-primary btn-floating mx-1">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col shadow-lg rounded">
+                <div class="right-bar">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            <div class="row mt-5 news shadow-lg rounded">
+                                <div class="col-8">col-8</div>
+                                <div class="col-4">col-4</div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                            <div class="skill">
+                                <h1 class="shadow-lg rounded">SKILL</h1>
+                                <h4 class="animate__animated animate__headShake shadow-lg rounded">Html</h4>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">90%</div>
+                                <h4 class="animate__animated animate__headShake shadow-lg rounded">Css</h4>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-310" role="progressbar" aria-valuenow="30" aria-valuemin="30" aria-valuemax="30">30%</div>
+                                <h4 class="animate__animated animate__headShake shadow-lg rounded">Js</h4>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info  w-5" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="5">5%</div>
+                                <h4 class="animate__animated animate__headShake shadow-lg rounded">php</h4>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">80%</div>
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                            <form method="post" class="form-send shadow-lg" >
+                                <!-- Name input -->
+                                <div class="form-outline mb-4">
+                                    <input type="name" id="form4Example1" class="form" placeholder="name" />
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form4Example2" class="form"  placeholder="email"/>
+                                </div>
+
+                                <!-- Message input -->
+                                <div class="form-outline mb-4">
+                                    <textarea class="form" id="form4Example3" rows="4"  placeholder="message"></textarea>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check d-flex justify-content-center mb-4">
+                                    <input
+                                            class="form-check-input me-2"
+                                            type="checkbox"
+                                            value=""
+                                            id="form4Example4"
+                                            checked
+                                    />
+                                    <label class="form-check-label" for="form4Example4">
+                                        Send me a copy of this message
+                                    </label>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary btn-block mb-4 animate__animated animate__bounce">Send</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
